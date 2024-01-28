@@ -1,0 +1,112 @@
+body {
+    font-family: Arial;
+    background-color: #F4F4F4;
+    padding: 30px;
+    color: #333;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/640d7851962a0f7ef6293d4d/1682049820219-Q2I2WAB10KG622FHBTTT/112.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+    margin: 0; 
+    overflow: hidden;
+}
+
+.app {
+    max-width: 600px;
+    margin: 0 auto 300px;
+    background-color: #efefef;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+h2{
+    margin-bottom: 10px;
+}
+p {
+    margin: 10px 0;
+}
+input {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333974;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: .8;
+    transition: .3s;
+    margin-right: 10px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.todo-list {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #555;
+}
+
+.todo {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete {
+    background-color: #5cb85c;
+    
+}
+.complete:hover{
+    background-color: #5CB8E4;
+    color: #000000;
+}
+
+.remove{
+    background-color: #ff544e;
+}
+.remover:hover{
+    background-color: #990505;   
+}
+
+.todo-form {
+    padding-bottom: 1.5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+input, select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    width: 40%;
+    margin: 10px;
+}
+
+.filter, .search {
+    border-bottom: 1px solid #555;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.filter-options div {
+    flex: 1 1 0;
+}
